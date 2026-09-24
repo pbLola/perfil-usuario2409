@@ -1,0 +1,71 @@
+*{
+    font-family: 'Arial', sans-serif;
+}
+.fundo{
+    background-color:  #1a1e26; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #232936;
+    border:1px solid #353c4a;
+    border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar-container{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #c247ff;
+    box-shadow: 0px 0px 10px #c247ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.avatar-img{
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.username{
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.profile-link{
+    color: #7da8ff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.follow-button{
+    background-color: #b830ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px #b830ff;
+    width: 100%;
+    font-weight: bold;
+}
+.follow-button.ativo{
+    background-color: #ffffff;
+    color: #b830ff;
+}
